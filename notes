@@ -1,0 +1,37 @@
+Funcction without paranthesis and variables are enclosed in curly braces.
+to change state variable ,use this.setState(object:variable that u want to update)
+
+... -->1.append i.e. add with the existing values
+    2.unpacks all the items in the list and converts them into object and add them to the list
+
+1.create a basic structure  with help of html and css
+2.Add items to do list
+    on adding input -->handleInput()
+        linking the input field to the current item
+         by setting the value to currentitem defined in the state
+
+
+    Common Error-->cannot read property setState of undefined
+    Sol-- explicity hard bind the this value  to constructor function
+
+    on submit the input i.e 
+    on add button click--> addItem()
+        fetch the new item from the state
+        check if the new item is empty ,if not 
+            update the items list with new item & set the currentItem to empty.
+
+
+To create a list ,create a new file in src
+    import that file in App.js
+    include it as a component
+
+    for delete button use font awesome icon
+
+
+Delete Functionality
+---using filter
+
+
+Editing items
+    change the <p> tag into input field in List.js file  ..
+    onChange  is required,,since user provided  value to the input field 
